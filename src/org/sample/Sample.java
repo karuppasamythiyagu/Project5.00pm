@@ -11,5 +11,13 @@ public class Sample {
 		System.out.println("Sample Two");
 
 	}
+	
+	public static void main(String[] args) {
+		
+		Sample s = new Sample();
+		s.sampleOne();
+		s.sampleTwo();
+		
+	}
 
 }
