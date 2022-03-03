@@ -11,17 +11,23 @@ public class Sample {
 		System.out.println("Sample Two");
 
 	}
-	
+
 	private void sampleThree() {
 		System.out.println("Sample Three");
+
 	}
-	
+
+	private void sampleFour() {
+		System.out.println("Sample Four");
+
+	}
+
 	public static void main(String[] args) {
-		
+
 		Sample s = new Sample();
 		s.sampleOne();
 		s.sampleTwo();
-		
+
 	}
 
 }
